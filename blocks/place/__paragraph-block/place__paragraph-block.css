@@ -1,0 +1,17 @@
+.place__paragraph-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+  }
+  
+  @media (max-width: 768px) {
+    .place__paragraph-block {
+      row-gap: 25px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .place__paragraph-block{
+     margin: 0 16px 0;
+    }
+  }
