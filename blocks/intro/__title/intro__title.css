@@ -8,17 +8,16 @@
     margin: 0;
   }
   
-  @media (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     .intro__title {
-      font-size: 10vw;
-      line-height: 107%;
-      width: 100%;
-    }
-  }
-  
-  @media (max-width: 320px) {
+        max-width: 720px;
+    }    
+}
+@media screen and (max-width: 767px) {
     .intro__title {
-      font-size: 32px;
-      line-height: 109%;
-    }
-  }
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        padding-top: 64px;
+    }    
+}
