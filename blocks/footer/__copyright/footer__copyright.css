@@ -1,6 +1,5 @@
 .footer__copyright {
     margin: 0;
-    padding: 0;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -9,8 +8,8 @@
   }
   
 
-  @media (max-width: 320px) {
-    .footer__link {
+  @media screen and (max-width: 767px) {
+    .footer__copyright {
       line-height: 14px;
     }
   }

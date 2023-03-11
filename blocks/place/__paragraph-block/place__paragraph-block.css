@@ -1,17 +1,6 @@
-.place__paragraph-block {
-    display: flex;
-    flex-direction: column;
-    row-gap: 26px;
+@media screen and (max-width: 767px) {
+  .place__paragraph-block {
+      width: calc(100% - 2 * 16px);
+      margin: 0 auto;
   }
-  
-  @media (max-width: 768px) {
-    .place__paragraph-block {
-      row-gap: 25px;
-    }
-  }
-  
-  @media (max-width: 320px) {
-    .place__paragraph-block{
-     margin: 0 16px 0;
-    }
-  }
+}
