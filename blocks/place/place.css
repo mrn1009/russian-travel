@@ -21,7 +21,7 @@
 @media screen and (max-width: 1023px) {
     .place {
         column-gap: 28px;
-        margin-top: 80px;
+        margin-top: 73px;
     }
 }
 
@@ -33,7 +33,4 @@
         margin-top: 50px;
     }
 
-    .place:last-of-type .place__paragraph {
-        margin: 0 auto;
-    }
 }
